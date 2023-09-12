@@ -1,6 +1,10 @@
 {
   "expo": {
-    "plugins": [["@react-native-google-signin/google-signin"]],
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin"
+      ]
+    ],
     "name": "expo49-template",
     "slug": "expo49-template",
     "version": "1.0.0",
@@ -15,7 +19,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,7 +29,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.pountzas.expo49template"
     },
     "web": {
       "favicon": "./assets/favicon.png"
