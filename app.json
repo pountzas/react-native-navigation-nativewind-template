@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "math-freak",
-    "slug": "math-freak",
+    "plugins": [["@react-native-google-signin/google-signin"]],
+    "name": "expo49-template",
+    "slug": "expo49-template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
