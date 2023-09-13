@@ -26,6 +26,19 @@ const LoginStack = () => (
     <StackLogin.Screen name="Login" component={Login} />
   </StackLogin.Navigator>
 );
+const HomeStack = () => (
+  <StackLogin.Navigator
+    screenOptions={{
+      // headerBackground: () => null,
+      headerTransparent: true,
+      headerShown: false,
+      headerStyle: {
+        backgroundColor: "transparent"
+      }
+    }}>
+    <StackLogin.Screen name="Home" component={Home} />
+  </StackLogin.Navigator>
+);
 
 // const HomeStack = () => (
 //   <Drawer.Navigator
@@ -74,7 +87,7 @@ const LoginStack = () => (
 // );
 const Routes = () => {
   //   const [user, setUser] = useRecoilState(userState);
-  return <NavigationContainer>{<LoginStack />}</NavigationContainer>;
+  return <NavigationContainer>{<HomeStack />}</NavigationContainer>;
 };
 
 export default Routes;
