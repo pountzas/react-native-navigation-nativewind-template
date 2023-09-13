@@ -1,9 +1,13 @@
 {
   "expo": {
     "owner": "finappg",
-    "plugins": [["@react-native-google-signin/google-signin"]],
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin"
+      ]
+    ],
     "name": "expo49-template",
-    "slug": "expo49-template",
+    "slug": "finapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,7 +20,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -29,6 +35,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6608ed12-4ec8-4b79-aafb-739eaa6a4a2b"
+      }
     }
   }
 }
