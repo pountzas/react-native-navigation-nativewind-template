@@ -25,7 +25,7 @@
     "@react-navigation/stack": "^6.3.17",
     "expo": "^49.0.10",
     "expo-auth-session": "~5.0.2",
-    "expo-dev-client": "~2.4.8",
+    "expo-dev-client": "~2.4.10",
     "expo-font": "~11.4.0",
     "expo-linear-gradient": "~12.3.0",
     "expo-splash-screen": "~0.20.5",

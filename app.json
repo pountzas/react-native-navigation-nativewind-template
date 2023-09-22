@@ -1,9 +1,9 @@
 {
   "expo": {
-    "owner": "finappg",
+    "owner": "none",
     "plugins": [["@react-native-google-signin/google-signin"]],
     "name": "expo49-template",
-    "slug": "finapp",
+    "slug": "none",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
