@@ -25,7 +25,7 @@
 ### Files to change
 - ``package.json`` value :name
 - to use a font of your choice in folder ``./assets/fonts/`` family like ``App.tsx`` in lines 16-24
-- make sure ``projectId`` is file ``app.json`` in line 41 is the one you initialized in previous step...
+- make sure ``projectId`` file ``app.json`` in line 35 is the one you initialized in previous step...
 - create a .env file and add ``WEB_CLIENT_ID`` for auth with ``GoogleSignin``
 - create a firebase project & create google services
 - creace a file ``typings.d.ts`` in the route and use it for global types
