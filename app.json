@@ -1,7 +1,24 @@
 {
   "expo": {
     "owner": "none",
-    "plugins": [["@react-native-google-signin/google-signin"]],
+    "plugins": [
+      ["@react-native-google-signin/google-signin"],
+      ["@react-native-firebase/app"],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "33.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.4",
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
     "name": "expo49-template",
     "slug": "none",
     "version": "1.0.0",
